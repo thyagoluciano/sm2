@@ -1,6 +1,6 @@
 name: sm2
-description: SM-2 is a simple spaced repetition algorithm.
-version: 0.1.0
+description: Simple spaced repetition algorithm. It calculates the number of days to wait before reviewing a piece of information based on how easily the the information was remembered today.
+version: 0.1.2
 authors: 
   - Thyago Luciano <thyagoluciano@gmail.com>
 
