@@ -1,4 +1,3 @@
-library sm2;
 
 import 'package:sm2/SmResponse.dart';
 
