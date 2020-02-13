@@ -1,6 +1,6 @@
 Implementation of SM-2 in DART. 
 
-SM-2 is a simple spaced repetition algorithm. It calculates the number of days to wait before reviewing a piece of information based on how easily the the information was remembered today.
+SM-2 is a simple spaced repetition algorithm. It calculates the number of days to wait before reviewing a piece of information based on how easily the information was remembered today.
 
 # Links
 
@@ -55,7 +55,7 @@ An integer number indicating the number of days to wait before the next review.
 
 ## Repetitions (integer)
 
-The number of times the the information has been reviewed as of this review. 
+The number of times the information has been reviewed as of this review. 
 
 This value is maintained between calls to the algorithm and used for calculating `interval`. The number increments after each successful review. SM-2 will reset `repetitions` to zero if `quality` is less than 3.
 
