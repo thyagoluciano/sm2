@@ -1,10 +1,10 @@
 name: sm2
 description: Simple spaced repetition algorithm. It calculates the number of days to wait before reviewing a piece of information based on how easily the the information was remembered today.
-version: 0.1.4
+version: 0.1.5
 authors: 
   - Thyago Luciano <thyagoluciano@gmail.com>
 
-homepage: https://github.com/thyagoluciano/flutter_radio
+homepage: https://github.com/thyagoluciano/sm2
 
 environment:
   sdk: ">=2.1.0 <3.0.0"
