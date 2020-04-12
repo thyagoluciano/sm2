@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:sm2/SmResponse.dart';
-import 'package:sm2/sm2.dart';
+import 'package:sm2/sm.dart';
 
 void main() {
   test('Calc success', () {
