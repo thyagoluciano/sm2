@@ -1,3 +1,7 @@
+## 0.1.6
+
+* Change file name to resolv conflict
+
 ## 0.1.5
 
 * Fix git url
