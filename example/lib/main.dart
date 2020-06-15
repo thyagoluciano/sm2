@@ -25,8 +25,8 @@ class HomePage extends StatelessWidget {
     SmResponse smResponse = sm.calc(
       quality: 0,
       repetitions: 0,
-      previousInterval: 2.5,
-      previousEaseFactor: 0
+      previousInterval: 0,
+      previousEaseFactor: 2.5
     );
     return Scaffold(
       appBar: AppBar(
