@@ -3,5 +3,9 @@ class SmResponse {
   final int repetitions;
   final double easeFactor;
 
-  SmResponse({this.interval, this.repetitions, this.easeFactor});
+  SmResponse({
+    required this.interval,
+    required this.repetitions,
+    required this.easeFactor,
+  });
 }

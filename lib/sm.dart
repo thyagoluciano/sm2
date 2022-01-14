@@ -2,10 +2,10 @@ import 'package:sm2/SmResponse.dart';
 
 class Sm {
   SmResponse calc({
-    int quality,
-    int repetitions,
-    int previousInterval,
-    double previousEaseFactor,
+    required int quality,
+    required int repetitions,
+    required int previousInterval,
+    required double previousEaseFactor,
   }) {
     int interval;
     double easeFactor;

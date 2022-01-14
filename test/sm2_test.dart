@@ -7,11 +7,10 @@ void main() {
     final sm = Sm();
 
     SmResponse smResponse = sm.calc(
-      quality: 0,
-      repetitions: 0,
-      previousInterval: 0,
-      previousEaseFactor: 2.5
-    );
+        quality: 0,
+        repetitions: 0,
+        previousInterval: 0,
+        previousEaseFactor: 2.5);
 
     expect(smResponse.interval, 1);
     expect(smResponse.repetitions, 0);
@@ -22,11 +21,10 @@ void main() {
     final sm = Sm();
 
     SmResponse smResponse = sm.calc(
-      quality: 5,
-      repetitions: 2,
-      previousInterval: 6,
-      previousEaseFactor: 1.3
-    );
+        quality: 5,
+        repetitions: 2,
+        previousInterval: 6,
+        previousEaseFactor: 1.3);
 
     expect(smResponse.interval, 8);
     expect(smResponse.repetitions, 3);
