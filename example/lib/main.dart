@@ -15,19 +15,18 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-class HomePage extends StatelessWidget {
 
+class HomePage extends StatelessWidget {
   final sm = Sm();
-  
+
   @override
   @override
   Widget build(BuildContext context) {
     SmResponse smResponse = sm.calc(
-      quality: 0,
-      repetitions: 0,
-      previousInterval: 0,
-      previousEaseFactor: 2.5
-    );
+        quality: 0,
+        repetitions: 0,
+        previousInterval: 0,
+        previousEaseFactor: 2.5);
     return Scaffold(
       appBar: AppBar(
         title: Text('Spaced Repetition'),
